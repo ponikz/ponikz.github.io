@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Природа вокруг | Простой сайт</title>
+    <meta name="description" content="Пример простого сайта для GitHub Pages с картинками и стилями из папки images">
+    <!-- CSS подключается из папки images -->
+    <link rel="stylesheet" href="images/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo-wrapper">
+                <img src="images/logo.svg" alt="Логотип сайта" class="logo-img" width="40" height="40">
+                <span class="logo-text">Природа</span>
+            </div>
+            <nav class="nav">
+                <a href="#" class="nav-link active">Главная</a>
+                <a href="#" class="nav-link">Галерея</a>
+                <a href="#" class="nav-link">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Красота природных <span class="accent">пейзажей</span></h1>
+                    <p class="hero-description">Откройте для себя удивительный мир через простые, но выразительные образы лесов, гор и дикой природы.</p>
+                    <button class="btn btn-primary" aria-label="Исследовать">Исследовать →</button>
+                </div>
+                <div class="hero-decoration" aria-hidden="true"></div>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Вдохновляющие моменты</h2>
+                    <p class="section-subtitle">Каждая картинка — маленькая история из мира дикой природы</p>
+                </div>
+                <div class="cards-grid">
+                    <!-- Карточка 1: Лес -->
+                    <article class="card">
+                        <div class="card-image">
+                            <img src="images/forest.svg" alt="Лесной пейзаж" loading="lazy">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Таинственный лес</h3>
+                            <p class="card-text">Глухие тропы, солнечные зайцы сквозь кроны и запах мха. Лес живёт своей древней жизнью.</p>
+                            <a href="#" class="card-link">Узнать больше →</a>
+                        </div>
+                    </article>
+                    <!-- Карточка 2: Горы -->
+                    <article class="card">
+                        <div class="card-image">
+                            <img src="images/mountain.svg" alt="Горный пейзаж" loading="lazy">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Вершины гор</h3>
+                            <p class="card-text">Заснеженные пики, чистый воздух и облака у подножия. Горы зовут тех, кто ищет высоту.</p>
+                            <a href="#" class="card-link">Узнать больше →</a>
+                        </div>
+                    </article>
+                    <!-- Карточка 3: Дикая природа -->
+                    <article class="card">
+                        <div class="card-image">
+                            <img src="images/wildlife.svg" alt="Дикая природа" loading="lazy">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Живая природа</h3>
+                            <p class="card-text">Олени на водопое, парящие орлы и бесшумные крылья. Мир без суеты и спешки.</p>
+                            <a href="#" class="card-link">Узнать больше →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="footer-copyright">© 2025 Простой сайт для GitHub Pages. Все иллюстрации — вдохновение природой.</p>
+            <div class="footer-links">
+                <a href="#" class="footer-link">О проекте</a>
+                <a href="#" class="footer-link">Политика</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
